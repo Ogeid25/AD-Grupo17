@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Escucha las más sonadas</title>
+    <meta name="title" content="Escucha las más sonadas" />
+    <meta name="description" content="Encuentra tu música favorita y las más sonadas del momento en un solo sitio web. Regístrate gratis y disfruta ya!" />
+
+  
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <a href="#inicio" class="header-nav__link-image-container">
+                <img src="./img/ilustracion-auriculares_39168-49.webp" alt="Logo Musical" class="header-nav__image" />
+            </a>
+    
+            <ul class="header-nav__link-list">
+                <li class="header-nav__link-item">
+                    <a href="#inicio" class="header-nav__link">Inicio</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#géneros" class="header-nav__link">Géneros</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#populares" class="header-nav__link">Populares</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#registro" class="header-nav__link">Registro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="inicio" id="inicio">
+            <div class="inicio__cover-image">
+                <figure class="inicio__image-container">
+                    <img src="./img/jovenes-musica.jpg" alt="Chicos escuchando música" class="inicio__image" />
+                </figure>
+            </div>
+            
+            <div class="inicio__content">
+                <h1 class="inicio__title">Escucha las más sonadas</h1>
+                <p class="inicio__description">
+                    Encuentra tu música favorita y las más populares del momento en un solo sitio web. Tenemos distintos 
+                    géneros musicales para toda ocasión y lo mejor que puedes adquirir estos beneficios totalmente gratis! <br/>
+                    Regístrate y arma tu playlist para que lo escuches a donde vayas.
+                </p>
+            </div>
+        </article>
+
+        <section class="géneros" id="géneros">
+            <div class="géneros__container">
+                <h2 class="géneros__title">🎶 Géneros 🎶</h2>
+                <ul class="géneros__image-list">
+                    <li class="géneros__image-container">
+                        <img src="./img/POP.png" alt="POP" class="géneros__image-image" />
+                    </li>
+                    <li class="géneros__image-container">
+                        <img src="./img/ROCK.png" alt="ROCK" class="géneros__image-image" />
+                    </li>
+                    <li class="géneros__image-container">
+                        <img src="./img/URBANO.png" alt="URBANO" class="géneros__image-image" />
+                    </li>
+                    <li class="géneros__image-container">
+                        <img src="./img/SALSA.png" alt="SALSA" class="géneros__image-image" />
+                    </li>
+                </ul> 
+            </div>
+        </section>
+
+        <section class="populares" id="populares">
+            <div class="populares-container">
+                <h2 class="populares__title">🎶 Populares 🎶</h2>
+                <div class="populares__populares-list">
+
+                    <section class="populares__popular">
+                        <h3 class="populares__song">Desesperados</h3>
+                        <h3 class="populares__authors">Rauw Alejandro & Chencho Corleone</h3>
+                        <h3 class="populares__song-link">
+                            <a href="https://www.youtube.com/watch?v=K9mTSekTktw" target="_blank" class="populares__link-link">Escúchala ahora!</a>
+                        </h3>
+                    </section>
+
+                    <section class="populares__popular">
+                        <h3 class="populares__song">Algo que se quede</h3>
+                        <h3 class="populares__authors">Grupo Niche</h3>
+                        <h3 class="populares__song-link">
+                            <a href="https://www.youtube.com/watch?v=khB6DUHpR4o" target="_blank" class="populares__link-link">Escúchala ahora!</a>
+                        </h3>
+                    </section>
+
+                    <section class="populares__popular">
+                        <h3 class="populares__song">Volví</h3>
+                        <h3 class="populares__authors">Romeo Santos & Bad Bunny</h3>
+                        <h3 class="populares__song-link">
+                            <a href="https://www.youtube.com/watch?v=ayd3yWr4tqU" target="_blank" class="populares__link-link">Escúchala ahora!</a> 
+                        </h3>
+                    </section>
+
+                    <section class="populares__popular">
+                        <h3 class="populares__song">Leave the door open</h3>
+                        <h3 class="populares__authors">Bruno Mars, Anderson .Paak & Silk Sonic</h3>
+                        <h3 class="populares__song-link">
+                            <a href="https://www.youtube.com/watch?v=adLGHcj_fmA" target="_blank" class="populares__link-link">Escúchala ahora!</a>
+                        </h3>
+                    </section>
+
+                    <section class="populares__popular">
+                        <h3 class="populares__song">Otherside</h3>
+                        <h3 class="populares__authors">Red Hot Chili Peppers</h3>
+                        <h3 class="populares__song-link">
+                            <a href="https://www.youtube.com/watch?v=rn_YodiJO6k" target="_blank" class="populares__link-link">Escúchala ahora!</a>
+                        </h3>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="registro" id="registro">
+            <div class="registro-container">
+                <h2 class="registro__title">Registrate y disfruta de la mejor música</h2>
+                <form action="/" class="registro__form">
+                    <input type="text" id="nombre" placeholder="Nombre Completo" name="nombre" class="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+                    <br/>
+                    <input type="text" id="apellido" placeholder="Apellido Completo" name="apellido" class="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+                    <br/>
+                    <input type="text" id="email" placeholder="Email" name="email" class="registro__form-input" required />
+                    <br/>
+                    <input type="number" id="celular" placeholder="Celular" name="celular" class="registro__form-input" min="900000000" max="999999999" required />
+                    <br/>
+                    <button class="registro__form-button">Registrar</button>
+                </form>
+            </div>
+            <p class="registro__aditional-text">Desarrollado por AD-GRUPO-17 &copy; 2022</p>
+        </section>
+
+    </main>
+</body>
+</html>
